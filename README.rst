@@ -46,9 +46,9 @@ To do:
 ------
 - Get an actual Pythonista to review it
 - Write tests
+- Upload to PyPi
 - Implement option to load tokens from a file
 
 Notes
 -----
-
 The project structure is borrowed from this post: https://gehrcke.de/2014/02/distributing-a-python-command-line-application/
