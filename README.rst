@@ -12,32 +12,45 @@ Installation
 
 Install using:
 
+.. code-block:: bash
+
     $ python setup.py install
 
 Verify by running:
+
+.. code-block:: bash
 
     $ opbeat-track --version
 
 To run the package without installing use:
 
+.. code-block:: bash
+
     $ python -m opbeat_track --version
     
 Alternatively, you can also:
-    
+
+.. code-block:: bash
+
     $ chmod u+x opbeat-track-runner.py
     $ ./opbeat-track-runner.py --version
 
 
 Usage
 -----
+.. code-block:: bash
 
     $ opbeat-track [-o ORG_ID] [-a APP_ID] [-s SECRET_TOKEN] [-b BRANCH]
     
 Example:
 
+.. code-block:: bash
+
     $ opbeat-track -a sd25403b -o 223s3438094c012bb32u55437a -s 523e0222ww8a8sf2af7e3392f224d1026s3 -b 'v2.0'
 
 Use the help command to get an overview:
+
+.. code-block:: bash
 
     $ opbeat-track --help
 
